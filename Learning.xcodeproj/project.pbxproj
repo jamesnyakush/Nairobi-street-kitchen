@@ -11,6 +11,14 @@
 		AF4ABE002ADD16F900711850 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4ABDFF2ADD16F900711850 /* ContentView.swift */; };
 		AF4ABE022ADD16FA00711850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4ABE012ADD16FA00711850 /* Assets.xcassets */; };
 		AF4ABE052ADD16FA00711850 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4ABE042ADD16FA00711850 /* Preview Assets.xcassets */; };
+		AF64F32B2AE79372006C44E9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF64F32A2AE79372006C44E9 /* HomeView.swift */; };
+		AF64F32D2AE793A1006C44E9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF64F32C2AE793A1006C44E9 /* ProfileView.swift */; };
+		AF64F32F2AE79BF1006C44E9 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF64F32E2AE79BF1006C44E9 /* ForgotPasswordView.swift */; };
+		AF64F3312AE79E6D006C44E9 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF64F3302AE79E6D006C44E9 /* ResetPasswordView.swift */; };
+		AFD1FBE02ADDA19200C7223F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1FBDF2ADDA19200C7223F /* WelcomeView.swift */; };
+		AFD1FBE42ADDA31C00C7223F /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1FBE32ADDA31C00C7223F /* DashboardView.swift */; };
+		AFD1FBE72ADDB01E00C7223F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1FBE62ADDB01E00C7223F /* LoginView.swift */; };
+		AFD1FBE92ADDB03700C7223F /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1FBE82ADDB03700C7223F /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		AF4ABDFF2ADD16F900711850 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF4ABE012ADD16FA00711850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF4ABE042ADD16FA00711850 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF64F32A2AE79372006C44E9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AF64F32C2AE793A1006C44E9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AF64F32E2AE79BF1006C44E9 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		AF64F3302AE79E6D006C44E9 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		AFD1FBDF2ADDA19200C7223F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		AFD1FBE32ADDA31C00C7223F /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		AFD1FBE62ADDB01E00C7223F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AFD1FBE82ADDB03700C7223F /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,11 @@
 		AF4ABDFC2ADD16F900711850 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				AF64F3342AE7A77C006C44E9 /* Welcome */,
+				AF64F3332AE7A6B6006C44E9 /* Profile */,
+				AF64F3322AE7A6A2006C44E9 /* Home */,
+				AFD1FBE52ADDB00400C7223F /* Auth */,
+				AFD1FBE22ADDA2FB00C7223F /* Dashboard */,
 				AF4ABDFD2ADD16F900711850 /* LearningApp.swift */,
 				AF4ABDFF2ADD16F900711850 /* ContentView.swift */,
 				AF4ABE012ADD16FA00711850 /* Assets.xcassets */,
@@ -65,6 +86,49 @@
 				AF4ABE042ADD16FA00711850 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF64F3322AE7A6A2006C44E9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AF64F32A2AE79372006C44E9 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AF64F3332AE7A6B6006C44E9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AF64F32C2AE793A1006C44E9 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AF64F3342AE7A77C006C44E9 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				AFD1FBDF2ADDA19200C7223F /* WelcomeView.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		AFD1FBE22ADDA2FB00C7223F /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				AFD1FBE32ADDA31C00C7223F /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		AFD1FBE52ADDB00400C7223F /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				AFD1FBE62ADDB01E00C7223F /* LoginView.swift */,
+				AFD1FBE82ADDB03700C7223F /* RegisterView.swift */,
+				AF64F32E2AE79BF1006C44E9 /* ForgotPasswordView.swift */,
+				AF64F3302AE79E6D006C44E9 /* ResetPasswordView.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +201,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF64F32D2AE793A1006C44E9 /* ProfileView.swift in Sources */,
+				AFD1FBE72ADDB01E00C7223F /* LoginView.swift in Sources */,
+				AF64F32B2AE79372006C44E9 /* HomeView.swift in Sources */,
 				AF4ABE002ADD16F900711850 /* ContentView.swift in Sources */,
+				AFD1FBE42ADDA31C00C7223F /* DashboardView.swift in Sources */,
+				AFD1FBE92ADDB03700C7223F /* RegisterView.swift in Sources */,
+				AFD1FBE02ADDA19200C7223F /* WelcomeView.swift in Sources */,
+				AF64F3312AE79E6D006C44E9 /* ResetPasswordView.swift in Sources */,
+				AF64F32F2AE79BF1006C44E9 /* ForgotPasswordView.swift in Sources */,
 				AF4ABDFE2ADD16F900711850 /* LearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
